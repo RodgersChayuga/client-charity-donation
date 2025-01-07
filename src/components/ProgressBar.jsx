@@ -21,15 +21,15 @@ const ProgressBar = () => {
             <div className="flex justify-between w-full " >
                 <div>
                     <h3 className="font-semibold text-sm md:text-lg lg:text-xl">Goal</h3>
-                    <h4 className="text-sm md:text-lg lg:text-xl text-[#B5B4BC]">KShs. 40,000/=</h4>
+                    <h4 className="text-sm md:text-lg lg:text-xl text-[#B5B4BC]">ETH. 10</h4>
                 </div>
                 <div>
                     <h3 className="font-semibold text-sm md:text-lg lg:text-xl">Raised</h3>
-                    <h4 className="text-sm md:text-lg lg:text-xl text-[#B5B4BC]">KShs. 15,000/=</h4>
+                    <h4 className="text-sm md:text-lg lg:text-xl text-[#B5B4BC]">ETH. 0.02</h4>
                 </div>
                 <div>
                     <h3 className="font-semibold text-sm md:text-lg lg:text-xl">To go</h3>
-                    <h4 className="text-sm md:text-lg lg:text-xl text-[#B5B4BC]">KShs. 25,000/=</h4>
+                    <h4 className="text-sm md:text-lg lg:text-xl text-[#B5B4BC]">ETH. 9.98</h4>
                 </div>
 
             </div>
