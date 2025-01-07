@@ -75,7 +75,7 @@ const CampaignDetails = () => {
       <div className="mt-[60px] flex lg:flex-row flex-col gap-5">
         <div className="flex-[2] flex flex-col gap-[40px]">
           <div>
-            <h4 className="font-epilogue font-semibold text-[18px] text-white uppercase">
+            <h4 className="font-epilogue font-semibold text-[18px] text-gray-800 dark:text-white uppercase">
               Creator
             </h4>
 
@@ -88,7 +88,7 @@ const CampaignDetails = () => {
                 />
               </div>
               <div>
-                <h4 className="font-epilogue font-semibold text-[14px] text-white break-all">
+                <h4 className="font-epilogue font-semibold text-[14px] text-gray-800 dark:text-white break-all">
                   {state.owner}
                 </h4>
                 <p className="mt-[4px] font-epilogue font-normal text-[12px] text-[#808191]">
@@ -99,7 +99,7 @@ const CampaignDetails = () => {
           </div>
 
           <div>
-            <h4 className="font-epilogue font-semibold text-[18px] text-white uppercase">
+            <h4 className="font-epilogue font-semibold text-[18px] text-gray-800 dark:text-white uppercase">
               Story
             </h4>
 
@@ -111,7 +111,7 @@ const CampaignDetails = () => {
           </div>
 
           <div>
-            <h4 className="font-epilogue font-semibold text-[18px] text-white uppercase">
+            <h4 className="font-epilogue font-semibold text-[18px] text-gray-800 dark:text-white uppercase">
               Donators
             </h4>
 
@@ -140,11 +140,11 @@ const CampaignDetails = () => {
         </div>
 
         <div className="flex-1">
-          <h4 className="font-epilogue font-semibold text-[18px] text-white uppercase">
+          <h4 className="font-epilogue font-semibold text-[18px] text-gray-800 dark:text-white uppercase">
             Fund
           </h4>
 
-          <div className="mt-[20px] flex flex-col p-4 bg-[#1c1c24] rounded-[10px]">
+          <div className="mt-[20px] flex flex-col p-4 bg-[#ffffff] dark:bg-gray-900 shadow-md rounded-[10px]">
             <p className="font-epilogue fount-medium text-[20px] leading-[30px] text-center text-[#808191]">
               Fund the campaign
             </p>
@@ -158,7 +158,7 @@ const CampaignDetails = () => {
                 onChange={(e) => setAmount(e.target.value)}
               />
 
-              <div className="my-[20px] p-4 bg-[#13131a] rounded-[10px]">
+              <div className="my-[20px] p-4 dark:bg-[#ffffff] bg-gray-900 shadow-md rounded-[10px]">
                 <h4 className="font-epilogue font-semibold text-[14px] leading-[22px] text-white">
                   Back it because you believe in it.
                 </h4>

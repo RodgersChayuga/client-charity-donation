@@ -15,7 +15,7 @@ const Icon = ({
   handleClick = () => { },
 }) => (
   <div
-    className={`w-[48px] h-[48px] rounded-[10px]  ${isActive && "bg-red-400"
+    className={`w-[48px] h-[48px] rounded-[10px]  ${isActive && "dark:bg-white bg-black"
       } flex justify-center items-center  ${!disabled && "cursor-pointer "
       } ${!disabled && !isActive && "hover:border-2 hover:border-[#4acd8d]"} ${styles}`}
     onClick={handleClick}
@@ -56,7 +56,7 @@ const Sidebar = () => {
         <img className="w-[52px] h-[52px] " src={logo} />
       </Link>
 
-      <div className="flex-1 flex flex-col justify-between items-center bg-[#ffffff] dark:bg-gray-900 rounded-[20px] w-[76px] py-4 mt-12">
+      <div className="flex-1 flex flex-col justify-between items-center bg-[#ffffff] dark:bg-gray-900 shadow-md rounded-[20px] w-[76px] py-4 mt-12">
         <div className="flex flex-col items-center justify-center gap-3">
           {navlinks.map((link) => {
             if (link.name === "logout" && !address) return null;

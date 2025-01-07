@@ -5,11 +5,9 @@ import { useStateContext } from "../context";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const [campaigns, setCampaigns] = useState<any[]>([]);
+  const [campaigns, setCampaigns] = useState([]);
 
   const { address, contract, getCampaigns, printMe } = useStateContext();
-
-  console.log("I am from Home page: ", printMe);
 
   const fetchCampaigns = async () => {
     setIsLoading(true);
