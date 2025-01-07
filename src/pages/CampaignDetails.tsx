@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { ethers } from "ethers";
 
 import { useStateContext } from "../context";
-import { CountBox, CustomButton, Loader } from "../components";
+import { CountBox, CustomButton, Loader, ProgressBar } from "../components";
 import { calculateBarPercentage, daysLeft } from "../utils";
 import { thirdweb } from "../assets";
 
@@ -71,6 +71,7 @@ const CampaignDetails = () => {
           <CountBox title="Total Backers" value={donators.length} />
         </div>
       </div>
+      <ProgressBar />
 
       <div className="mt-[60px] flex lg:flex-row flex-col gap-5">
         <div className="flex-[2] flex flex-col gap-[40px]">

@@ -6,4 +6,5 @@ export { default as FormField } from "./FormField";
 export { default as DisplayCampaigns } from "./DisplayCampaigns";
 export { default as CountBox } from "./CountBox";
 export { default as Footer } from "./Footer";
-export { default as Tooltip } from "./ToolTip"
+export { default as Tooltip } from "./ToolTip";
+export { default as ProgressBar } from "./ProgressBar";
